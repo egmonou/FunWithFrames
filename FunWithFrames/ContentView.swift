@@ -11,10 +11,10 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Text("Upper Left")
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,maxHeight: .infinity, alignment: .topLeading)
+                .align(aliment: .topLeading)
             
             Text("Upper Right")
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,maxHeight: .infinity, alignment: .topTrailing)
+                .align(aliment: .topTrailing)
             
             Text("Lower Left")
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,maxHeight: .infinity, alignment: .bottomLeading)
@@ -23,7 +23,7 @@ struct ContentView: View {
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,maxHeight: .infinity, alignment: .bottomTrailing)
             
             Text("Top")
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,maxHeight: .infinity, alignment: .top)
+                .align(aliment: .top)
             
             Text("Bottom")
                 .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .bottom)
