@@ -11,6 +11,7 @@
 		C39852272C8F8B31008AA863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39852262C8F8B31008AA863 /* ContentView.swift */; };
 		C39852292C8F8B33008AA863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39852282C8F8B33008AA863 /* Assets.xcassets */; };
 		C398522D2C8F8B33008AA863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C398522C2C8F8B33008AA863 /* Preview Assets.xcassets */; };
+		C39992DB2C904E580023DC66 /* AligenModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39992DA2C904E580023DC66 /* AligenModifer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C39852282C8F8B33008AA863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C398522A2C8F8B33008AA863 /* FunWithFrames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FunWithFrames.entitlements; sourceTree = "<group>"; };
 		C398522C2C8F8B33008AA863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C39992DA2C904E580023DC66 /* AligenModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AligenModifer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				C39852242C8F8B31008AA863 /* FunWithFramesApp.swift */,
 				C39852262C8F8B31008AA863 /* ContentView.swift */,
+				C39992DA2C904E580023DC66 /* AligenModifer.swift */,
 				C39852282C8F8B33008AA863 /* Assets.xcassets */,
 				C398522A2C8F8B33008AA863 /* FunWithFrames.entitlements */,
 				C398522B2C8F8B33008AA863 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39992DB2C904E580023DC66 /* AligenModifer.swift in Sources */,
 				C39852272C8F8B31008AA863 /* ContentView.swift in Sources */,
 				C39852252C8F8B31008AA863 /* FunWithFramesApp.swift in Sources */,
 			);
